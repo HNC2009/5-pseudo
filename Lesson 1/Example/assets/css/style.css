@@ -18,12 +18,12 @@ button {
 /* The user's cursor is positioned over the element */
 button:hover {
   background-color: #772014;
-  color: #fff;
+  color: brown;
 }
 
 /* The user is actively pressing down on the element */
 button:active {
-  font-size: 280%;
+  font-size: 50%;
   box-shadow: 0 0 10px #000 inset;
 }
 
@@ -31,4 +31,5 @@ button:active {
 button:focus {
   outline: none;
   border-color: #8ac4ff;
+  background-color: hotpink;
 }
